@@ -38,6 +38,13 @@ const sumXSquared = () => {
     return Math.pow(count,2);
 }
 
+const ySquaredSum = () => {
+    count = 0;
+    for(i=0;i<data.length;i++) {
+        count = Math.pow(data[i].drinkTime, 2) + count;
+    }
+    return count;
+    
 //(sum of y)^2
 const sumYSquared = () => {
     count = 0;

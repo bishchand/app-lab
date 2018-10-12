@@ -60,3 +60,5 @@ const sumXTimesY = function() {
 const pearsonCorrelation = () => {
     return (sumXTimesY() - sumXTimesY()/n) / ((Math.sqrt(xSquaredSum()) -(sumXSquared()/n)) * (Math.sqrt(ySquaredSum()) -(sumYSquared()/n)));
 }
+
+console.log(pearsonCorrelation());
